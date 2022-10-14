@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercitando JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        
+        <div id="cores">
+            <button id="rosa" onclick="rosa()" ></button>
+            <button id="azul" onclick="azul()" ></button>
+            <button id="amarelo" onclick="amarelo()" ></button>
+        </div>
+
+        <h1 class="exerc-js"> Exercitando JS </h1>
+
+        <div id="relogio">
+            <span class="ponteiro" id="horas"> </span>
+            <span class="ponteiro" id="minutos"> </span>
+            <span class="ponteiro" id="segundos"> </span>
+        </div>
+
+        <h1 id="logo"> ‹AP/›  </h1>
+
+        <div>
+            <button id="menu" onclick="menu()" >=</button>
+            <div> </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        
+
+        <section class="section s-like">
+            <h1 id="title-like"> Contador de likes </h1>
+            <div id="s1">
+                <div id="like">
+                    <button id="b-like" onclick="like()" > Gostei </button>
+                    <button id="b-like-respon" onclick="like()" > Gostei </button>
+                    <button id="b-like-r"> Reiniciar </button>
+                    <p id="p-like"> Foram feitas 0 curtidas nessa publicação! </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section s-timer">
+            <h1 id="title-timer"> Cronômetro </h1>
+            <div id="s2">
+                <h1 id="timer">00:00:00</h1>
+                <div>
+                    <button class="b-timer b-timer-verde" onclick="iniciar()"> Iniciar </button>
+                    <button class="b-timer b-timer-laranja" onclick="parar()"> Parar </button>
+                    <button class="b-timer b-timer-vermelho" onclick="reiniciar()"> Reiniciar </button>
+                </div>
+            </div>
+        </section>
+
+        
+<!-- 
+        <section class="section s-calc">
+            <h1 id="title-calc"> Calculadora </h1>
+            <div id="s3">
+                <div class="res"> 0 </div>
+                <div class="calc">
+                    <input class="num" id="teclas" onclick="digitar()" type="submit" value="7">
+                    <input class="num" id="teclas" onclick="digitar()" type="submit" value="8">
+                    <input class="num" id="teclas" onclick="digitar()" type="submit" value="9">
+                    <input class="sinal" id="teclas" onclick="digitar()" type="submit" value="x">
+                    <input class="num" id="teclas" onclick="digitar()" type="submit" value="4">
+                    <input class="num" id="teclas" onclick="digitar()" type="submit" value="5">
+                    <input class="num" id="teclas" onclick="digitar()" type="submit" value="6">
+                    <input class="sinal" id="teclas" onclick="digitar()" type="submit" value="-">
+                    <input class="num" id="teclas" onclick="digitar()" type="submit" value="1">
+                    <input class="num" id="teclas" onclick="digitar()" type="submit" value="2">
+                    <input class="num" id="teclas" onclick="digitar()" type="submit" value="3">
+                    <input class="sinal" id="teclas" onclick="digitar()" type="submit" value="+">
+                    <input class="sinal" id="teclas" onclick="digitar()" type="submit" value="+/-">
+                    <input class="num" id="teclas" onclick="digitar()" type="submit" value="0">
+                    <input class="num" id="teclas" onclick="digitar()" type="submit" value=".">
+                    <input class="sinal" id="teclas" onclick="digitar()" type="submit" value="=">
+            </div>
+            
+        </section> -->
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
